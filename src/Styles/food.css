@@ -1,0 +1,50 @@
+
+section{
+    color: brown;
+}
+section button{
+    width: 150px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+
+}
+nav .mobile{
+    font-size: 17px;
+    color: black;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    font-size: 17px;
+}
+
+nav ul a {
+    color: black;
+}
+
+
+.card img{
+    width: 400px;
+}
